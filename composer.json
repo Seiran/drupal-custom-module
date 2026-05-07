@@ -1,0 +1,11 @@
+{
+  "name": "yourname/my_custom_module",
+  "type": "drupal-custom-module",
+  "description": "Custom Drupal module with page, AJAX form, block and service",
+  "keywords": ["Drupal", "module", "custom"],
+  "license": "GPL-2.0-or-later",
+  "minimum-stability": "dev",
+  "require": {
+    "drupal/core": "^9 || ^10"
+  }
+}
