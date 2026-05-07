@@ -1,0 +1,27 @@
+my_custom_module.first_page:
+  path: '/my-first-page'
+  defaults:
+    _controller: '\Drupal\my_custom_module\Controller\FirstPageController::content'
+    _title: 'My First Page'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: TRUE
+    
+my_custom_module.simple_form_page:
+  path: '/my-form-page'
+  defaults:
+    _form: '\Drupal\my_custom_module\Form\SimpleForm'
+    _title: 'Проста форма'
+  requirements:
+    _permission: 'access content'
+    
+my_custom_module.test_service:
+  path: '/test-service/{entity_type}/{entity_id}'
+  defaults:
+    _controller: '\Drupal\my_custom_module\Controller\ServiceTestController::content'
+    _title: 'Тестування сервісу'
+    entity_type: 'node'
+    entity_id: 1
+  requirements:
+    _permission: 'access content'

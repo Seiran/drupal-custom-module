@@ -1,0 +1,13 @@
+my_custom_module.first_page:
+  title: 'My First Page'
+  description: 'Сторінка з датою та часом'
+  route_name: my_custom_module.first_page
+  menu_name: main
+  weight: 10
+
+my_custom_module.simple_form_page:
+  title: 'Simple Form'
+  description: 'Сторінка з AJAX формою'
+  route_name: my_custom_module.simple_form_page
+  menu_name: main
+  weight: 11

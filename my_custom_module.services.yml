@@ -1,0 +1,4 @@
+services:
+  my_custom_module.entity_info_service:
+    class: Drupal\my_custom_module\Service\EntityInfoService
+    arguments: ['@entity_type.manager']

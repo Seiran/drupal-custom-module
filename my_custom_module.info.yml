@@ -1,0 +1,5 @@
+name: 'My Custom Module'
+type: module
+description: 'Модуль для тестового завдання'
+core_version_requirement: ^9 || ^10
+package: Custom
